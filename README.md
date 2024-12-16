@@ -53,3 +53,5 @@ To learn more about specific technical standards, refer to the dedicated documen
 
 These standards will be reviewed and updated as needed. Suggestions and feedback from all team members are encouraged 
 to ensure our practices remain current, effective, and aligned with the organization mission.
+
+Current document version: **0.1.0**.

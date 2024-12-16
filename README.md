@@ -7,22 +7,10 @@ and navigable set of guidelines.
 
 Document also will try to provide deeper context for each decision made during the development.
 
-[//]: # (## Guiding Principles)
-
-[//]: # ()
-[//]: # (- **Security & Privacy**)
-
-[//]: # (- **Accessibility**)
-
-[//]: # (- **Sustainability & Maintainability**)
-
-[//]: # (- **Open Standards & Collaboration**)
-
-[//]: # (- **Compliance & Ethics**)
-
 ## Scope
 
 These standards apply to:
+
 - all frontend and backend projects developed or maintained under the Generacja Innowacja,
 - internal and external communication platforms,
 - infrastructure components, including servers, cloud services, and network configurations,
@@ -33,25 +21,14 @@ These standards apply to:
 
 To learn more about specific technical standards, refer to the dedicated documents below:
 
-- Frontend standards __(coming soon)__
+- Frontend standards **(coming soon)**
 - [Backend standards](docs/backend/INDEX.md)
 - [GitHub repository standards](docs/github/INDEX.md)
-- Infrastructure standards __(coming soon)__
-
-[//]: # (## Other Documentation)
-
-[//]: # ()
-[//]: # (- [Coding Guidelines]&#40;./coding-guidelines.md&#41;)
-
-[//]: # (- [Contribution Guidelines]&#40;./contribution-guidelines.md&#41;)
-
-[//]: # (- [Security Policies]&#40;./security-policies.md&#41;)
-
-[//]: # (- [Infrastructure Architecture]&#40;./infrastructure-architecture.md&#41; *&#40;optional file you may create&#41;*)
+- Infrastructure standards **(coming soon)**
 
 ## Continuous Improvement
 
-These standards will be reviewed and updated as needed. Suggestions and feedback from all team members are encouraged 
+These standards will be reviewed and updated as needed. Suggestions and feedback from all team members are encouraged
 to ensure our practices remain current, effective, and aligned with the organization mission.
 
 Current document version: **0.1.0**.

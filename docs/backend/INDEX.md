@@ -42,8 +42,6 @@ learning curve to be a successful programmer. Make sure to check these maps out:
 *"It works on my end!"* - is a known joke and phrase that everyone in IT industry heard at least once. To prevent this
 kind of situations, we are using **Docker** to create development and production environments.
 
-
-
 > **We use Docker in all backend projects in organization.**
 >
 > Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers
@@ -59,9 +57,9 @@ and ship it all out as one package.
 >
 > Since our backend services are almost identical when it comes to system configuration, we are using one Dockerfile
 > standard across all of our projects. You can look at these repositories to see how it looks like:
+>
 > - [dzialaj-org-api](https://github.com/Generacja-Innowacja/dzialaj-org-api/blob/main/Dockerfile)
 > - [mypolitics-survey-producer-api](https://github.com/Generacja-Innowacja/mypolitics-survey-producer-api/blob/main/Dockerfile)
-
 
 > **We use multi-stage builds to keep our images as small as possible.**
 >
@@ -70,6 +68,7 @@ and ship it all out as one package.
 > packages.
 
 Read more about Docker:
+
 - [Docker (official docs)](https://docs.docker.com/)
 - [Docker Compose (official docs)](https://docs.docker.com/compose/)
 

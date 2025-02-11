@@ -5,13 +5,14 @@ under our organization.
 
 ## Before you start
 
-Hello dear volunteer, it's so nice to have you! To help us keep technical standards, please read steps below before 
+Hello dear volunteer, it's so nice to have you! To help us keep technical standards, please read steps below before
 starting work in any of Generacja Innowacja projects.
 
 ### Host OS
 
-All our projects are well tested both on **Ubuntu 22.04** and **macOS Sonoma**. Some team members were also using **Windows**
-for development, however it was very problematic. Use other platforms only on your own responsibility.
+All our projects are well tested both on **Ubuntu 22.04** and **macOS Sonoma**. Some team members were also using
+**Windows** for development, however it was very problematic. Use other platforms only on your own responsibility.
+
 ### Git
 
 To enhance security, we require you to configure your local development environment in the way we can recognise your
@@ -33,13 +34,14 @@ git config gpg.format ssh
 git config user.signingkey <path to your ssh key>
 ```
 
-You need to repeat these steps on each new machine you'll be using for development and in each of the projects. 
+You need to repeat these steps on each new machine you'll be using for development and in each of the projects.
 **Pull requests containing unsigned commits will not be possible to merge.**
 
 ### GitHub
 
 On the GitHub platform we require two additional security steps:
-- add your organization email address (ending with __@gi.org.pl__) to your account
+
+- add your organization email address (ending with **@gi.org.pl**) to your account
   (you can do it [here](https://github.com/settings/emails)),
 - enable 2-factor authorization in your **GitHub** account
   (you manage it [here](https://github.com/settings/security)),

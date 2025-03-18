@@ -20,6 +20,7 @@ Możemy wyróżnić cztery etapy, w których może znajdować się kod:
  * staging area - zmiany przygotowane do commita, zmiany które chcemy zawrzeć w commicie,
  * local repository - zmiany lokalnie scommitowane, jednak niezsynchronizowane z chmurą,
  * cloud repository - zmiany zsynchronizowane z repozytorium w chmurze.
+
 Wszelkie modyfikacje plików dzieją się w working directory. Takie zmiany widzimy oznaczone kolorem czerwonym po wpisaniu komendy `git status`. Komenda ta sama nam podpowiada: aby dodać rzeczy do staging area, używamy komendy `git add [względna ścieżka do pliku]`. Możemy też dodać cały katalog: `git add [względna ścieżka do katalogu]` oraz wszystkie zmiany w obecnym katalogu i podkatalogach: `git add .`. Jeżeli stwierdzimy, że danego pliku commitować nie chcemy, możemy użyć polecenia `git restore --staged [plik]` (działa także dla folderów). Polecenia `git restore [file]` użyjemy natomiast, by cofnąć wszystkie zmiany w obrębie working directory (tj. przypadkowo usunęliśmy cały plik - `git restore [plik]` nam go przywróci do wersji z ostatniego commita).
 Gdy mamy już nasze zmiany na etapie staging area i chcemy je "zapisać" w repozytorium, to jest to właśnie moment commitowania. Nic prostszego: `git commit -m [notka: co zostało zrobione? / tytuł commita]`. Jeżeli przypadkiem wpiszesz bez opcji `-m`, szukaj ratunku w gogle pod hasłem vim.
 Gdy popełniliśmy już commita, powinniśmy go zsynchronizować z chmurą. Użyjemy do tego polecenia `git push origin HEAD`.

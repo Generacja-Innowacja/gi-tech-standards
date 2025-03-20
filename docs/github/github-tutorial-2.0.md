@@ -42,7 +42,7 @@ git checkout main
 git fetch
 git pull
 git checkout moje-zadanie-branch
-git rebase master
+git rebase main
 ```
 W ten sposób upewniamy się, że nasze zmiany oparte są o najnowszą wersję kodu z maina.
 

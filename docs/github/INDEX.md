@@ -3,7 +3,6 @@
 *These guidelines ensure a consistent, maintainable, and robust backend codebase across all services developed under
 our organization.*
 
-
 Hello dear volunteer, it's so nice to have you! To help us keep technical standards, please read steps below before
 starting work in any of Generacja Innowacja projects.
 
@@ -161,6 +160,6 @@ This way, we ensure that our changes are based on the latest version of the code
 The `git status` command, which we only briefly discussed, is often indispensable. The tutorial will likely be
 expanded as problems arise — for now, that’s all.
 
-# FAQ
+## FAQ
 
 Empty — ask a question to expand this section!

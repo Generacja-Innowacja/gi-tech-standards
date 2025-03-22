@@ -111,7 +111,7 @@ mode, use :q! to force exit without saving and use :wq to save and exit.
 
 After making a commit, we should synchronize it with the cloud. To do this, we use the command: `git push origin HEAD`.
 
-### How and why to work with branches?
+### How to and why work with branches?
 
 Before you start working, you need to create a local branch. All changes are made on separate code branches. Just like
 leaves on a tree, changes on different branches of the repository are completely independent. This helps us avoid

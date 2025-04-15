@@ -23,6 +23,7 @@ To learn more about specific technical standards, refer to the dedicated documen
 
 - Frontend standards **(coming soon)**
 - [Backend standards](docs/backend/INDEX.md)
+- [AI usage standards](docs/ai/INDEX.md)
 - [GitHub repository standards](docs/github/INDEX.md)
 - Infrastructure standards **(coming soon)**
 

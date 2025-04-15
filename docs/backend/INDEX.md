@@ -1,4 +1,4 @@
-# Backend tech stack
+# Backend standards
 
 ## Languages and technologies
 

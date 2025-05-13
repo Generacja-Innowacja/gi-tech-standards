@@ -26,6 +26,7 @@ To learn more about specific technical standards, refer to the dedicated documen
 - [AI usage standards](docs/ai/INDEX.md)
 - [GitHub repository standards](docs/github/INDEX.md)
 - Infrastructure standards **(coming soon)**
+- [Our process list](docs/process/development/DEVELOPMENT_FLOW.md)
 
 ## Continuous Improvement
 

@@ -41,7 +41,7 @@ Given our existing infrastructure, SES is the most logical and powerful choice.
 
 **Pros:**
 
-- **Cost ctructure:** the free tier of 62,000 emails per month, when sending from an EC2 instance, is
+- **Cost structure:** the free tier of 62,000 emails per month, when sending from an EC2 instance, is
 exceptionally generous and will cover our needs for the foreseeable future. The subsequent cost of $0.10 per 1,000
 emails is the lowest on the market.
 - **Deep ecosystem integration:** SES integrates natively with other AWS services like IAM for secure access control,

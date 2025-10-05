@@ -1,6 +1,6 @@
 # gi-tech-standards
 
-This is repository contains all documents regarding technical standards developed by **Generacja Innowacja** tech team.
+This repository contains all documents regarding technical standards developed by **Generacja Innowacja** tech team.
 The purpose of these documents is to establish clear, modular technology standards for all projects developed and
 maintained by our organization. By splitting each section into its own file, we create a more organized, maintainable,
 and navigable set of guidelines.
@@ -27,6 +27,12 @@ To learn more about specific technical standards, refer to the dedicated documen
 - [GitHub repository standards](docs/github/INDEX.md)
 - Infrastructure standards **(coming soon)**
 - [Our process list](docs/process/development/DEVELOPMENT_FLOW.md)
+
+## Researches
+
+During the development, we performed a number of research and analysis activities.
+
+- [Mailing solution for NGO Manager app](research/001-MAILING-FOR-NGO-MANAGER.md)
 
 ## Continuous Improvement
 

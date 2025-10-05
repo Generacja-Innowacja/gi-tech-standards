@@ -52,9 +52,9 @@ You need to repeat these steps on each new machine you'll be using for developme
 On the GitHub platform we require two additional security steps:
 
 - add your organization email address (ending with **@gi.org.pl**) to your account
-  (you can do it [here](https://github.com/settings/emails)),
+  (you can do it [in GitHub emails settings](https://github.com/settings/emails)),
 - enable 2-factor authorization in your **GitHub** account
-  (you manage it [here](https://github.com/settings/security)),
+  (you manage it [in GitHub security settings](https://github.com/settings/security)),
 - add your real name to your **GitHub** profile
 
 These steps are allowing us to control exactly who is introducing the new changes into our repositories, thank you for

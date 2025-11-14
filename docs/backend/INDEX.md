@@ -39,14 +39,14 @@ learning curve to be a successful programmer. Make sure to check these maps out:
 
 ## Environments
 
-*"It works on my end!"* - is a known joke and phrase that everyone in IT industry heard at least once. To prevent this
+_"It works on my end!"_ - is a known joke and phrase that everyone in IT industry heard at least once. To prevent this
 kind of situations, we are using **Docker** to create development and production environments.
 
 > **We use Docker in all backend projects in organization.**
 >
 > Docker is a tool designed to make it easier to create, deploy, and run applications by using containers. Containers
-allow a developer to package up an application with all the parts it needs, such as libraries and other dependencies,
-and ship it all out as one package.
+> allow a developer to package up an application with all the parts it needs, such as libraries and other dependencies,
+> and ship it all out as one package.
 
 > **We are using Docker both for development and production environments.**
 >
@@ -81,3 +81,125 @@ Read more about Docker:
 >
 > However, since your project may have different requirements, you can use any other database. If you want to consult
 > your choice, feel free to ask for advice from organization Technical Leader.
+
+## Getting Started with GitHub
+
+> We use GitHub to organize our work and collaborate on projects.
+>
+> You can learn more here:
+>
+> - [Git & GitHub Roadmap](https://roadmap.sh/git-github)
+> - [Interactive Git branching tutorial](https://learngitbranching.js.org/)
+
+> Below you’ll find the basic authentication setup.  
+> Once you complete it, you’ll be able to clone our repositories and start working.
+>
+> Run all commands in **Windows PowerShell** or a **Linux terminal** as a **regular user**.  
+> Configuration is stored locally and will be used on each contribution.
+
+1. **Set up your Git identity**
+
+   ```shell
+   git config --global user.email "your_email@example.com"
+   git config --global user.name "your_name"
+   ```
+
+2. **Generate an SSH authentication key**
+
+   ```shell
+   ssh-keygen -t ed25519 -C "your_email@example.com"
+   ```
+
+   You will be asked to specify a file location and passphrase — you can accept the defaults and leave the passphrase blank.
+
+3. **Enable the SSH agent**
+
+   > The `ssh-agent` service must be running for your SSH key to work.
+
+   **[Linux]**
+
+   ```shell
+   eval "$(ssh-agent -s)"
+   ```
+
+   **[Windows]**
+
+   > Run this code in a **new Windows PowerShell window as Administrator**.
+
+   ```powershell
+   Get-Service -Name ssh-agent | Set-Service -StartupType Automatic
+   Start-Service ssh-agent
+   ```
+
+4. **Add your private key to the agent**
+
+   > If you used a custom key name, adjust the file path accordingly.
+
+   **[Linux]**
+
+   ```shell
+   ssh-add ~/.ssh/id_ed25519
+   ```
+
+   **[Windows]**
+
+   ```powershell
+   ssh-add $env:USERPROFILE\.ssh\id_ed25519
+   ```
+
+5. **Copy your public key and add it to GitHub**
+
+   **[Linux]**
+
+   ```shell
+   cat ~/.ssh/id_ed25519.pub
+   ```
+
+   **[Windows]**
+
+   ```powershell
+   cat $env:USERPROFILE\.ssh\id_ed25519.pub
+   ```
+
+   Copy the entire key (including the email) and paste it on the  
+   [**Add new SSH key** page on GitHub](https://github.com/settings/ssh/new).  
+   Give it a descriptive title and do **not** change the key type.  
+   After that, you’ll be able to authenticate with GitHub from your terminal.
+
+   > **Signing commits:**  
+   > To use the same key for commit signing:
+   >
+   > - Copy the same **public key** again.
+   > - Go to [**Add new SSH key**](https://github.com/settings/ssh/new).
+   > - Give it a descriptive title and set the **key type** to “Signing key”.
+
+   ***
+
+   > **Verification step:**  
+   > Test your SSH key setup by connecting to GitHub:
+   >
+   > ```shell
+   > ssh -T git@github.com
+   > ```
+   >
+   > You should see:  
+   > `"Hi username! You've successfully authenticated, but GitHub does not provide shell access."`
+
+6. **Add signing key configuration**
+
+   > If you used a custom key name, adjust the file path accordingly.
+
+   ```shell
+   git config --global gpg.format ssh
+   git config --global user.signingkey ~/.ssh/id_ed25519.pub
+   git config --global commit.gpgsign true
+   ```
+
+7. **Configure line endings (Windows only)**
+
+   > Run this step only on **Windows** systems to ensure Docker compatibility.
+
+   ```powershell
+   git config --global core.autocrlf false
+   git config --global core.eol lf
+   ```

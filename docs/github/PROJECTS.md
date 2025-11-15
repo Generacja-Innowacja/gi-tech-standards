@@ -1,29 +1,28 @@
 # Projects
 
+This document aims to describe the rules for working with GitHub Projects as a tool for task management.
 
-Niniejszy dokument ma na celu opisanie zasad pracy z wykorzystaniem Github Projects jako narzędzia do zarządzania pracą.
+When starting a task:
 
-Przy rozpoczęciu zadania:
-* Upewnij się, że zadanie jest widoczne w tablicy [All products](https://github.com/orgs/Generacja-Innowacja/projects/17/views/1).
-* Przesuń zadanie do kolumny "In progress".
-* Przypisz siebie w polu Assignee. Jeżeli planujesz współpracować z kimś - zostaw komentarz pod odpowiednim zadaniem i oznacz współautorów.
+* Make sure the task is visible on the [All products](https://github.com/orgs/Generacja-Innowacja/projects/17/views/1) board.
+* Move the task to the “In progress” column.
+* Assign yourself in the Assignee field.
+* If you plan to collaborate with someone, please leave a comment under the relevant task and mention your co-authors.
+* Interns only: ensure that the internship coordinators are aware of any jointly executed tasks.
 
-Przy otwieraniu pull requesta:
-* Dodaj siebie do pola **Assignee**.
-* W przypadku pojawiania się wsparcia od innych osób (innych niż koordynatorzy praktyk w przypadku praktykantów) - dodaj te osoby w polu Assignee w pull requeście (nie w zadaniu!).
-* W polu **Development** wskaż odpowiednie zadanie (Issue).
-* **Nie** używaj "Labels", "Projects", "Milestone".
-* W **Reviewers** dodaj:
-  * jeżeli jesteś praktykantem: opiekunów praktyk z danego obszaru (frontend/backend),
-  * jeżeli jesteś wolontariuszem: co najmniej dwóch innych wolontariuszy z danego obszaru.
-* Zajrzyj także tu: [Code review](../process/development/CODE_REVIEW.md).
+When opening a pull request:
 
-Przy zamknięciu (zmergowaniu) pull requesta:
-* Zweryfikuj, czy zadanie powinno zostać zamknięte i czy zostało zamknięte.
+* Add yourself to the Assignee field.
+* In the Development section, link the appropriate task (issue).
+* Do not use Labels, Projects, or Milestone.
+* Get familiar with the [Code review](../process/development/CODE_REVIEW.md) process.
 
-Ponadto, kategorycznie zabronione są:
-* archiwizowanie zadań (Issues),
-* zamykanie zadań bez ich realizacji,
-* przenoszenie zmian na kolejne pull requesty bez informacji pozostawionej przy istniejącym dotychczas pull requeście.
+When closing (merging) a pull request:
 
-W przypadku praktyk, złamanie powyższych zasad może skutkować znacznym obniżeniem oceny.
+* Verify whether the related task should be closed and ensure it has been closed. If needed, adjust its status.
+
+Additionally, the following actions are prohibited:
+
+* archiving tasks (issues),
+* closing tasks without completing them,
+* moving changes to subsequent pull requests without leaving information in the pre-existing pull request.

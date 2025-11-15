@@ -6,7 +6,7 @@ our organization.*
 Hello dear volunteer, it's so nice to have you! To help us keep technical standards, please read steps below before
 starting work in any of Generacja Innowacja projects.
 
-## What is git and what is Github? 
+## What is git and what is Github?
 
 Git is a control system, that is, a program monitoring simultaneous changes in the codebase. This type of solution is
 an indispensable part of a programmer's work — the larger the project, the more developers involved, the more
@@ -21,8 +21,8 @@ GitLab, which is another Git service.
 ## Subsections
 
 * [First steps](FIRST_STEPS.md) of work with git system
-* _Managing git conflicts_ (in progress)
-* Our guidelines about [Github Projects](PROJECTS.md)
+* *Managing git conflicts* (in progress)
+* Our guidelines about [GitHub Projects](PROJECTS.md)
 
 ## FAQ
 

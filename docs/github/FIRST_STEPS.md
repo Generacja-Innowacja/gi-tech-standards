@@ -7,7 +7,7 @@ The first step is to install Git and clone (download) the repository. You can do
 for your favorite operating system. You can also use the GitHub Desktop application, which offers a graphical
 interface. In this document, we will focus on the console usage of Git.
 
-**Note**: all our projects are well tested both on *Ubuntu 22.04* and *macOS Sonoma*. Some team members were also
+**Note**: all our projects are well tested both on *Ubuntu 22.04* and *macOS Tahoe*. Some team members were also
 using *Windows* for development, however it was very problematic. Use other platforms only for your own responsibility.
 
 To enhance security, we require you to configure your local development environment in the way we can recognise your

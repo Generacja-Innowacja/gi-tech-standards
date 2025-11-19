@@ -21,7 +21,7 @@ These standards apply to:
 
 To learn more about specific technical standards, refer to the dedicated documents below:
 
-- Frontend standards **(coming soon)**
+- [Frontend standards](docs/frontend/INDEX.md)
 - [Backend standards](docs/backend/INDEX.md)
 - [AI usage standards](docs/ai/INDEX.md)
 - [GitHub repository standards](docs/github/INDEX.md)

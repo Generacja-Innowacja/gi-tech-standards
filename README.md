@@ -39,4 +39,4 @@ During the development, we performed a number of research and analysis activitie
 These standards will be reviewed and updated as needed. Suggestions and feedback from all team members are encouraged
 to ensure our practices remain current, effective, and aligned with the organization mission.
 
-Current document version: **0.1.0**.
+Current document version: **0.2.0**.

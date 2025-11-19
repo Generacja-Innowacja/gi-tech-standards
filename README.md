@@ -21,7 +21,7 @@ These standards apply to:
 
 To learn more about specific technical standards, refer to the dedicated documents below:
 
-- Frontend standards **(coming soon)**
+- [Frontend standards](docs/frontend/INDEX.md)
 - [Backend standards](docs/backend/INDEX.md)
 - [AI usage standards](docs/ai/INDEX.md)
 - [GitHub repository standards](docs/github/INDEX.md)
@@ -39,4 +39,4 @@ During the development, we performed a number of research and analysis activitie
 These standards will be reviewed and updated as needed. Suggestions and feedback from all team members are encouraged
 to ensure our practices remain current, effective, and aligned with the organization mission.
 
-Current document version: **0.1.0**.
+Current document version: **0.2.0**.

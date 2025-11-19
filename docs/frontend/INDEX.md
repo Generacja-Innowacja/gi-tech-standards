@@ -21,3 +21,7 @@ This document outlines the core technologies, tools, and libraries used in our f
 - [React](tools/REACT.md)
 - [State Management](tools/STATE_MANAGEMEN.md)
 - [Testing](tools/TESTING.md)
+
+## Resources
+
+- [Vite Project Boilerplate](https://github.com/Generacja-Innowacja/vite-project-boilerplate)

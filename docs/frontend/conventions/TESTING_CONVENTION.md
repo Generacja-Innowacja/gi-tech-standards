@@ -2,7 +2,8 @@
 
 ## BDD (Behavior-Driven Development) - Given When Then
 
-We use BDD syntax (Given-When-Then) to write tests in a human-readable format. This makes tests serve as living documentation and helps to understand what the application does.
+We use BDD syntax (Given-When-Then) to write tests in a human-readable format. This makes tests serve as living
+documentation and helps to understand what the application does.
 
 **Vitest BDD example:**
 

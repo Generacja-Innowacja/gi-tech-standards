@@ -4,7 +4,8 @@
 
 **React >= 19**
 
-React is the industry standard for building user interfaces. Its large ecosystem and community make it an ideal choice for maintainable projects.
+React is the industry standard for building user interfaces. Its large ecosystem and community make it an ideal choice
+for maintainable projects.
 
 - [React official documentation](https://react.dev/)
 
@@ -12,7 +13,8 @@ React is the industry standard for building user interfaces. Its large ecosystem
 
 **Vite >= 7**
 
-Vite provides lightning-fast development server startup and hot module replacement (HMR). It uses native ES modules in development and Rollup for production builds, resulting in optimal performance and developer experience.
+Vite provides lightning-fast development server startup and hot module replacement (HMR). It uses native ES modules in
+development and Rollup for production builds, resulting in optimal performance and developer experience.
 
 - [Vite official documentation](https://vite.dev/)
 - [Why Vite?](https://vite.dev/guide/why.html)
@@ -21,7 +23,8 @@ Vite provides lightning-fast development server startup and hot module replaceme
 
 **Storybook**
 
-Storybook allows us to develop and document UI components in isolation. It serves as a living style guide and helps ensure component consistency across the application. This is especially valuable in projects with multiple developers.
+Storybook allows us to develop and document UI components in isolation. It serves as a living style guide and helps ensure
+component consistency across the application. This is especially valuable in projects with multiple developers.
 
 - [Storybook documentation](https://storybook.js.org/)
 - [Storybook tutorials](https://storybook.js.org/tutorials/)
@@ -41,6 +44,8 @@ developer experience while maintaining the flexibility of React Router.
 
 **Tailwind CSS >= 4**
 
-Tailwind CSS brings a modern utility-first approach to styling with improved performance, better developer experience, and a more intuitive API. It allows for rapid UI development while maintaining consistency and reducing CSS bundle size through intelligent purging.
+Tailwind CSS brings a modern utility-first approach to styling with improved performance, better developer experience,
+and a more intuitive API. It allows for rapid UI development while maintaining consistency and reducing CSS bundle size
+through intelligent purging.
 
 - [Tailwind CSS documentation](https://tailwindcss.com/)

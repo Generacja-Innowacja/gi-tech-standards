@@ -1,8 +1,9 @@
-## State Management
+# State Management
 
-### Primary Strategy: React Context + useState
+## Primary Strategy: React Context + useState
 
-For most state management needs, we use React's built-in `useContext` and `useState` hooks. This approach is simple, requires no additional dependencies, and is sufficient for most applications.
+For most state management needs, we use React's built-in `useContext` and `useState` hooks. This approach is simple,
+requires no additional dependencies, and is sufficient for most applications.
 
 We prefer this for:
 
@@ -10,9 +11,10 @@ We prefer this for:
 - Shared state between closely related components
 - Simple state that doesn't require complex logic
 
-### Secondary Strategy: Zustand
+## Secondary Strategy: Zustand
 
-When state management becomes more complex or we need better performance for frequently updated state, we use Zustand. Zustand is a lightweight state management solution that provides:
+When state management becomes more complex or we need better performance for frequently updated state, we use Zustand.
+Zustand is a lightweight state management solution that provides:
 
 - Minimal boilerplate
 - Better performance than Context for frequently updated state
@@ -25,7 +27,7 @@ We use Zustand for:
 - State that needs to persist across sessions
 - State that requires middleware (logging, persistence, etc.)
 
-### Resources
+## Resources
 
 - [Zustand documentation](https://zustand-demo.pmnd.rs/)
 - [Zustand GitHub repository](https://github.com/pmndrs/zustand)

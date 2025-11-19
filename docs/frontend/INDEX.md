@@ -1,10 +1,12 @@
 # Front-end Standards
 
-This document outlines the core technologies, tools, and libraries used in our front-end projects. Each choice has been made with careful consideration of maintainability, developer experience, and long-term sustainability.
+This document outlines the core technologies, tools, and libraries used in our front-end projects. Each choice has been
+made with careful consideration of maintainability, developer experience, and long-term sustainability.
 
 > **All new front-end projects in the organization should follow these configuration standards.**
 >
-> These standards ensure consistency across projects, making it easier for developers to switch between projects and maintain code quality. If you need to use a different technology, please seek approval from the Technical Leader first.
+> These standards ensure consistency across projects, making it easier for developers to switch between projects
+and maintain code quality. If you need to use a different technology, please seek approval from the Technical Leader first.
 
 ## Conventions
 

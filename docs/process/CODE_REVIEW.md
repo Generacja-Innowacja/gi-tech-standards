@@ -28,22 +28,25 @@ merge. Make sure to resolve all the conflicts before creating a pull request. Do
    - **Description**: Description of the PR is usually not needed at all. Add something in this section only if you feel
    that reviewer should see something or remember something while reviewing the code.
    - **Labels**: We do not use GitHub labels for pull requests.
-   - **Assignee**: Assign yourself as the author of the PR.
+   - **Assignee**: Assign yourself as the author of the PR, assign also co-authors.
    - **Verify CI is passing**: Make sure that the CI is passing before creating a PR. If the CI is failing, it means
    that there is something wrong with your code. Fix it before assigning reviewers.
    - **Conflicts**: Make sure that there are no conflicts with the main branch. If there are, resolve them before
    assigning reviewers. Make sure that your branch is up to date with the main branch.
 2. **Assign reviewers**: **Developer** assigns at least one reviewer to your PR. The reviewer should be someone who is
 familiar with the codebase and can provide constructive feedback: usually it is a tech lead or another developer from
-your project.
+your project. If you are an intern, please assign internship supervisors within the domain (frontend or backend). In
+some of our repositories, we enabled automatic reviewer assignment. If that's the case, you will see the 'developer'
+group assigned to review your PR, and in this case, you don't have to do anything at all.
 3. **Update board and inform a team**: After assigning the reviewers, **developer** should write a message on project
-Discord channel (`-back` or `-front`), and move task to `Code review` column in _GitHub Projects_.
+Discord channel (`-back` or `-front`), and move task to `Code review` (`Waiting for review`, `In review` or similar)
+column in _GitHub Projects_.
 4. **Review the code**: The **reviewer** should review the code for readability, maintainability, and adherence to
 coding standards. They should also test the code to ensure it works as expected. Anyone can take part of the code
 review, but only the assigned reviewers are responsible for approving the PR.
 5. **Provide feedback**: The **reviewer** should provide feedback on the code, including any suggestions for improvement
 or changes that need to be made. We decided to use [conventional comments](https://conventionalcomments.org/) standard
-for giving feedback.
+for giving feedback. Please move the task to `Waiting for correction` column if further changes are required.
 6. **Make changes**: If the reviewer requests changes, make the necessary changes to the code and push them to the PR.
 If **reviewer** starts a discussion, you can reply to the comment and ask for more details. Do not resolve the comment
 that was created by **reviewer**. Conversation resolving is the responsibility of the **reviewer**.
@@ -56,7 +59,9 @@ done automatically on our repositories, but make sure that the branch was remove
 If there is, the code will be automatically deployed to the production environment. If not, manually deploy the code to
 the production environment, or ask tech leader to do this.
 11. **Close the task in GH Projects**: Once the PR has been merged and the code has been deployed, **developer** closes
-the task in GitHub Projects.
+the task in GitHub Projects. An exception applies to tasks for which more than one PR is expected. In such cases, the
+issue should be closed only after all pull requests have been merged. Please also ensure that the task has not been
+closed automatically ahead of time.
 
 **Legend:**
 

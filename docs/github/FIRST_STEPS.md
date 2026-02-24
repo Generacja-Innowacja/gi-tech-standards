@@ -15,21 +15,21 @@ identity. Please set up local `git` to add metadata on each push. You can do tha
 
 ```shell
 # replace <your name and surname> with your real name
-git config user.name "<your name and surname>"
+git config --global user.name "<your name and surname>"
 
 # replace <your email> with your real email that ends on @gi.org.pl
 # if you don't have that email, contact administrator
-git config user.email "<your email>"
+git config --global user.email "<your email>"
 
 # we usually recommend to sign off commits with SSH key you already have in your system
-git config gpg.format ssh
+git config --global gpg.format ssh
 
 # replace <path to your ssh key> with your real SSH public key
 # example: ~/.ssh/id_ed25519.pub
-git config user.signingkey <path to your ssh key>
+git config --global user.signingkey <path to your ssh key>
 ```
 
-You need to repeat these steps on each new machine you'll be using for development and in each of the projects.
+You need to repeat these steps on each new machine you'll be using for development.
 **Pull requests containing unsigned commits will not be possible to merge.**
 
 On the GitHub platform we require two additional security steps:
@@ -98,8 +98,12 @@ After making a commit, we should synchronize it with the cloud. To do this, we u
 
 Before you start working, you need to create a local branch. All changes are made on separate code branches. Just like
 leaves on a tree, changes on different branches of the repository are completely independent. This helps us avoid
-conflicts. To create a new branch, use `git branch [your-branch-name]`.  To switch between branches, use
-`git checkout [target-branch-name]`.
+conflicts. To create a new branch, use `git branch [new-branch-name]`.  To switch between branches, use
+`git checkout [target-branch-name]`. You can also use `git checkout -b [target-branch-name]` to combine those two operations.
+
+**Warning**: in most cases you have to checkout to `main`, use `git fetch` and `git pull` to refresh the main, and then
+you should create a new branch. That's because branches are created relatively to your current state and you almost always
+want to create branches on the top of the newest `main`. These commands will be described in a moment.
 
 The ideal workflow is as follows: you are on `main`, create a new branch, perform the task, commit, and push. Then, in
 the Pull Requests tab on the repository page, you will have the option to create a pull request. We use pull requests

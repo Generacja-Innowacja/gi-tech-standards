@@ -2,5 +2,6 @@
   "MD013": {
     "line_length": 120
   },
-  "MD028": false
+  "MD028": false,
+  "MD036": false
 }

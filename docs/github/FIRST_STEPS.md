@@ -54,7 +54,7 @@ here is an example:
 Further Reading/Reference: <https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration>
 
 >[!Note]
->It is generally a good practice to keep such config files in a github repo, on Posix operating systems such as linux, macos, freebsd there is a plethora of tools and techniques for managing such repos including stow (gnu stow), symlink scripts, or nix flakes (advanced) one example  can be found at <https://github.com/shafti-code/dots>
+>It is generally a good practice to keep such config files in a github repo
 
 **Pull requests containing unsigned commits will not be possible to merge.**
 

@@ -35,6 +35,8 @@ You need to repeat these steps on each new machine you'll be using for developme
 set up git via config files located either in ~/.gitconfig or ~/.config/git/config
 here is an example:
 
+2. config
+
 ```
 [user]
     name = your-name

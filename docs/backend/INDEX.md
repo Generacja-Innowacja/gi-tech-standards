@@ -31,7 +31,7 @@ learning curve to be a successful programmer. Make sure to check these maps out:
 - [Node.js roadmap](https://roadmap.sh/nodejs)
 - [Docker roadmap](https://roadmap.sh/docker)
 
-Additional reading about dependencies important to our projects
+Additional reading about dependencies important to our projects:
 
 - [PrismaORM](https://www.prisma.io/)
 - [class-validator](https://class-validator.sonicar.tech/)

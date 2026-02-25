@@ -7,11 +7,13 @@ The first step is to install Git and clone (download) the repository. You can do
 for your favorite operating system. You can also use the GitHub Desktop application, which offers a graphical
 interface. In this document, we will focus on the console usage of Git.
 
-**Note**: all our projects are well tested both on *Ubuntu 22.04* and *macOS Tahoe*. Some team members were also
+**Note**: all our projects are well tested both on *Ubuntu LTS* and *macOS Tahoe*. Some team members were also
 using *Windows* for development, however it was very problematic. Use other platforms only for your own responsibility.
 
 To enhance security, we require you to configure your local development environment in the way we can recognise your
-identity. Please set up local `git` to add metadata on each push. You can do that by setting:
+identity. Please set up local `git` to add metadata on each push. There are two ways to achieve that
+
+1. shell 
 
 ```shell
 # replace <your name and surname> with your real name
@@ -29,7 +31,28 @@ git config --global gpg.format ssh
 git config --global user.signingkey <path to your ssh key>
 ```
 
-You need to repeat these steps on each new machine you'll be using for development.
+You need to repeat these steps on each new machine you'll be using for development. Wchich you may find to be quite annoying, instead, you may also
+set up git via config files located either in ~/.gitconfig or ~/.config/git/config
+here is an example:
+
+```
+[user]
+    name = your-name
+    email = youremail@email.com
+    signkey = <path to your ssh key>
+[push]
+    autoSetupRemote = true
+    default = current 
+[pull]
+    rebase = true
+[gpg]
+    format = ssh
+```
+Further Reading/Reference: https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
+
+>[!Note]
+>It is generally a good practice to keep such config files in a github repo, on Posix operating systems such as linux, macos, freebsd there is a plethora of tools and techniques for managing such repos including stow (gnu stow), symlink scripts, or nix flakes (advanced) one example  can be found at https://github.com/shafti-code/dots
+
 **Pull requests containing unsigned commits will not be possible to merge.**
 
 On the GitHub platform we require two additional security steps:

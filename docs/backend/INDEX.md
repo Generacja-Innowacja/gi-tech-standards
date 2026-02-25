@@ -33,7 +33,7 @@ learning curve to be a successful programmer. Make sure to check these maps out:
 
 Additional reading about dependencies important to our projects
 
-- [PrismaORM ](https://www.prisma.io/)
+- [PrismaORM](https://www.prisma.io/)
 - [class-validator](https://class-validator.sonicar.tech/)
 - [cucumberjs](https://cucumber.io/docs/installation/javascript/)
 

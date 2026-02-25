@@ -13,7 +13,7 @@ using *Windows* for development, however it was very problematic. Use other plat
 To enhance security, we require you to configure your local development environment in the way we can recognise your
 identity. Please set up local `git` to add metadata on each push. There are two ways to achieve that
 
-1. shell 
+1. shell
 
 ```shell
 # replace <your name and surname> with your real name
@@ -35,7 +35,7 @@ You need to repeat these steps on each new machine you'll be using for developme
 set up git via config files located either in ~/.gitconfig or ~/.config/git/config
 here is an example:
 
-2. config
+1. config
 
 ```
 [user]
@@ -50,10 +50,11 @@ here is an example:
 [gpg]
     format = ssh
 ```
-Further Reading/Reference: https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
+
+Further Reading/Reference: <https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration>
 
 >[!Note]
->It is generally a good practice to keep such config files in a github repo, on Posix operating systems such as linux, macos, freebsd there is a plethora of tools and techniques for managing such repos including stow (gnu stow), symlink scripts, or nix flakes (advanced) one example  can be found at https://github.com/shafti-code/dots
+>It is generally a good practice to keep such config files in a github repo, on Posix operating systems such as linux, macos, freebsd there is a plethora of tools and techniques for managing such repos including stow (gnu stow), symlink scripts, or nix flakes (advanced) one example  can be found at <https://github.com/shafti-code/dots>
 
 **Pull requests containing unsigned commits will not be possible to merge.**
 

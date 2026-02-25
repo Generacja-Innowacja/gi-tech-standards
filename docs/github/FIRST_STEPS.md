@@ -11,7 +11,7 @@ interface. In this document, we will focus on the console usage of Git.
 using *Windows* for development, however it was very problematic. Use other platforms only for your own responsibility.
 
 To enhance security, we require you to configure your local development environment in the way we can recognise your
-identity. Please set up local `git` to add metadata on each push. There are two ways to achieve that
+identity. Please set up local `git` to add metadata on each push. There are two ways to achieve that.
 
 1. shell
 
@@ -54,7 +54,7 @@ here is an example:
 Further Reading/Reference: <https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration>
 
 >[!Note]
->It is generally a good practice to keep such config files in a github repo
+>It is generally a good practice to keep such config files in a github repo.
 
 **Pull requests containing unsigned commits will not be possible to merge.**
 

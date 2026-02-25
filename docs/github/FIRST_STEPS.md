@@ -37,7 +37,7 @@ here is an example:
 
 1. config
 
-```
+```toml
 [user]
     name = your-name
     email = youremail@email.com

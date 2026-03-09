@@ -1,5 +1,3 @@
 # Decision log
 
-Subject:
-
-- Use TypeScript as primary language
+This section is under construction and will be available shortly.

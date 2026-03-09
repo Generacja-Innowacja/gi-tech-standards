@@ -7,9 +7,10 @@ Welcome to organization backend standards.
 The learning curve for backend developers is steep. There are plenty of things a modern backend developer should be
  aware of to develop safe, scalable and reliable server-side applications.
 
-That is why a set of materials is provided to help you to learn the basics of backend development.
-
-[Read more about the learning curve](/docs/backend/LEARNING.md)
+> Set of materials is provided to help developers learn the basics of backend development. Check them and get back here
+> often to refresh knowledge.
+>
+> [Read more about the learning curve](/docs/backend/LEARNING.md)
 
 ## Tools
 
@@ -18,22 +19,39 @@ Basic languages, libraries, frameworks and tools that are used in the projects, 
 > **Runtime** refers to the software layer that makes execution possible — the infrastructure sitting between the code
 > and the operating system.
 >
-> [Read more about accepted runtime tools](/docs/backend/tools/RUNTIME.md)
+> [Read more about runtime tools](/docs/backend/tools/RUNTIME.md)
 
 > **Code quality** is a set of practices that help keep the code maintainable and readable. Organization should strictly
 > follow common practices to ensure standarization of the code.
 >
-> [Read more about accepted code quality tools](/docs/backend/tools/CODE_QUALITY.md).
+> [Read more about code quality tools](/docs/backend/tools/CODE_QUALITY.md)
 
 > **Testing** is a crucial part of developing stable, regression-free server apps. Organization should maintain highest
 > standards of testing to ensure that the code is working properly for all the edge cases.
 >
-> [Read more about accepted testing tools](/docs/backend/tools/TESTING.md)
+> [Read more about testing tools](/docs/backend/tools/TESTING.md)
 
 > **CI/CD** _(Continuous Integration, Continuous Delivery)_ refers to the software layer that checks if the code is
 > working properly and if it can be deployed to production.
 >
-> [Read more about accepted CI/CD tools](/docs/backend/tools/CI_CD.md)
+> [Read more about CI/CD tools](/docs/backend/tools/CI_CD.md)
+
+## Conventions
+
+Set of practices that are used to ensure that the code, but also all processes around it are consistent and
+maintainable.
+
+> **RFC** tells how certain keywords should be understood when used in other technical documents.
+>
+> [Read more about RFC](/docs/backend/conventions/RFC.md)
+
+> **Naming**
+>
+> [Read more about naming convention](/docs/backend/conventions/NAMING.md)
+
+> **Structure**
+>
+> [Read more about structure convention](/docs/backend/conventions/STRUCTURE.md)
 
 ## Decision log
 

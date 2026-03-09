@@ -1,5 +1,7 @@
 # Learning
 
+This section is under construction and should not be considered complete yet.
+
 Read more about those technologies:
 
 - [JavaScript (MDN web docs)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)

@@ -1,21 +1,21 @@
-# Runtime environment
+# Runtime
 
-The following technology stack is selected for server-side apps:
+The following tools are selected for server-side apps:
 
 - [Docker](https://www.docker.com/)
 - [Node.js](https://nodejs.org/)
 - [Nest.js](https://nestjs.com/)
 - [PostgreSQL](https://www.postgresql.org/)
 
-> **#0: Do not start a project in another stack than listed above, without a prior approval from the _Engineering_
-> team.**
+> **#0: Before starting a new project using different language or frameworks, a developer MUST have prior approval from
+> the _Engineering_ team.**
 >
 > Do not feel anxious to ask for the approval. They are here to help, and they want to make sure that the best tools for
 > the job are used.
 
 ## Docker
 
-> **#1: Use Docker-based runtime environments in server-side projects.**
+> **#1: Docker-based runtime environments MUST be used.**
 >
 > _“It works on my end”_ is a known joke and phrase that everyone in the IT industry heard at least once. To prevent
 > this, **Docker** should be used to create development and production environments.
@@ -24,12 +24,12 @@ The following technology stack is selected for server-side apps:
 > containers. Containers allow a developer to package up an application with all the parts it needs, such as libraries
 > and other dependencies, and ship it all out as one package.
 
-> **#2. Use Docker containers for development and production environments.**
+> **#2. Docker containers MUST be used for development and production environments.**
 >
 > By using virtualization, the code will work in the same way on every machine: no matter if it is a developer's
 > laptop or a production server.
 
-> **#3. Use Alpine Linux as a base image for Docker containers.**
+> **#3. Alpine Linux MUST be used as a base image for Docker containers.**
 
 > **#4: Use standardized Dockerfile across different projects.**
 >
@@ -45,11 +45,11 @@ The following technology stack is selected for server-side apps:
 > using only production dependencies, without any development tools, test libraries, and other development-related
 > packages.
 
-> **#6. Expose framework default port in the container.**
+> **#6. Framework default port MUST be exposed in the container.**
 >
-> For **Nest.js**, it is port `3000`.
+> For **Nest.js**, it is port `3000`. Do not change it, do not configure a custom port.
 
-> **#7. Tie services together using Docker Compose for local development.**
+> **#7. Docker Compose MUST be used to tie services together for local development.**
 
 Read more about Docker:
 
@@ -58,15 +58,15 @@ Read more about Docker:
 
 ## Node.js & TypeScript
 
-> **#1: Use Node.js in version 24.**
+> **#1: Node.js in version 24 MUST be used.**
 >
 > Use the latest LTS version of Node.js to ensure access to modern JavaScript features, performance improvements,
 > and leading security standards. Node.js 24 provides excellent support for ES modules, improved performance, and better
 > security.
 
-> **#2: Use `npm` as package manager for Node.**
+> **#2: For Node,`npm` package manager MUST be used.**
 
-> **#3: Use TypeScript in version 5.9.**
+> **#3: TypeScript in version 5.9 MUST be used.**
 >
 > TypeScript brings type safety to JavaScript, catching errors at compile-time rather than runtime. This significantly
 > reduces bugs and improves the developer experience with better IDE support and autocomplete.
@@ -89,7 +89,7 @@ Read more about TypeScript:
 
 ## Nest.js
 
-> **#1: Use Nest.js in version 11.**
+> **#1: Nest.js in version 11 MUST be used.**
 
 Read more about Nest.js:
 
@@ -97,7 +97,7 @@ Read more about Nest.js:
 
 ## Databases
 
-> **#1: For relational databases, use PostgreSQL in version 15.**
+> **#1: For storing relational data, PostgreSQL in version 15 MUST be used.**
 >
 > **PostgreSQL** a powerful, open-source object-relational database system that uses and extends the SQL language
 > combined with many features that safely store and scale the most complicated data workloads, while still keeping
@@ -111,11 +111,15 @@ Read more about Nest.js:
 > other database engines if they fit the project requirements better than PostgreSQL**, but each decision must be
 > consulted by the **_Engineering_** team before proceeding.
 
-> **#3: Use Prisma ORM for database access layer.**
+> **#3: If applicable, Prisma ORM MUST be used for the database access layer.**
 
-> **#4: If applicable, use Prisma in version 7.**
+> **#4: If applicable, Prisma in version 7 MUST be installed.**
 
-> **#5: If applicable, keep Prisma client in `prisma/client/` directory.**
+> **#5: If applicable, Prisma client MUST be kept in `prisma/client/` directory.**
+
+> **#5: If applicable, Prisma config MUST be kept in `prisma.config.ts` file in root project directory.**
+>
+> [See standardized prisma.config.ts file](https://github.com/oskarbarcz/flight-tracker-api/blob/main/prisma.config.ts).
 
 Read more about Prisma:
 

@@ -27,7 +27,7 @@ There are two things hard in programming: cache invalidation and naming things. 
 > - `utils.ts`
 > - `main.ts`
 
-> **#3. Named export MUST be used, default export MUSt NOT be used.**
+> **#3. Named export MUST be used, default export MUST NOT be used.**
 
 > **#4. All TypeScript classes, enums, interfaces and types MUST follow the PascalCase naming convention.**
 >

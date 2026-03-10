@@ -28,6 +28,8 @@ authors:
   - given-names: Jan
     family-names: Budzowski
     email: jan.budzowski@gi.org.pl
+  - given-names: Marek
+    family-names: Garbacz
 repository-code: 'https://github.com/Generacja-Innowacja/gi-tech-standards'
 url: 'https://gi.org.pl'
 abstract: >-

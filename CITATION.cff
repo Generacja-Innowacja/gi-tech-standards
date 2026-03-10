@@ -1,0 +1,48 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Common Technical Standards for NGO organizations
+message: 'If you use these instructions, please cite it as below.'
+type: software
+authors:
+  - name: Generacja Innowacja
+    address: Ul. Jana Pawła Woronicza 33/112
+    city: Warszawa
+    country: PL
+    post-code: 02-627
+    location: Poland
+    region: mazovian
+    email: relations@gi.org.pl
+    website: 'https://gi.org.pl'
+  - orcid: 'https://orcid.org/0009-0000-1766-061X'
+    given-names: Oskar
+    family-names: Barcz
+    email: ob@gi.org.pl
+  - given-names: Adrian
+    family-names: Orłów
+    email: ao@gi.org.pl
+  - given-names: Patryk
+    family-names: Prewendowski
+    email: patryk.prewendowski@gi.org.pl
+  - given-names: Jan
+    family-names: Budzowski
+    email: jan.budzowski@gi.org.pl
+repository-code: 'https://github.com/Generacja-Innowacja/gi-tech-standards'
+url: 'https://gi.org.pl'
+abstract: >-
+  This repository contains all documents regarding technical
+  standards developed by Generacja Innowacja engineering
+  team for internal use and as a recommendation for other
+  technology-first non-governmental organizations. 
+
+
+  The purpose of this repository is to establish clear,
+  modular technology standards for all projects developed
+  and maintained by the organization.
+keywords:
+  - tech-standards
+  - generacja-innowacja
+  - gi
+  - technology-standards-for-ngos
+license: CC-BY-NC-4.0

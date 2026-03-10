@@ -39,3 +39,8 @@ provide deeper context for the decisions made during the development.
 
 These standards will be reviewed and updated as needed. Suggestions and feedback from all team members are encouraged
 to ensure these practices remain current, effective and aligned with the organization mission.
+
+## License
+
+The documentation in this repository is licensed under the
+[CC BY-NC 4.0 License](https://creativecommons.org/licenses/by-nc/4.0/).

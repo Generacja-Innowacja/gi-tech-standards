@@ -1,0 +1,13 @@
+*               ob@gi.org.pl ao@gi.org.pl
+
+# Files covered by #engineering - Head of Engineering - Oskar Barcz
+/docs/ai        ob@gi.org.pl
+/docs/backend   ob@gi.org.pl
+
+# Files covered by #product - Head of Product - Adrian Orłów
+/docs/frontend  ao@gi.org.pl
+
+# Changes to this repository config files should be reviewed by the Head Of Engineering
+/.github/       ob@gi.org.pl
+*.json          ob@gi.org.pl
+*.yaml          ob@gi.org.pl

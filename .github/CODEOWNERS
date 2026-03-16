@@ -1,0 +1,13 @@
+*               @gi-org-pl/backs @gi-org-pl/fronts
+
+# Files reviewed by backend developers and Head of Engineering
+/docs/ai        @gi-org-pl/backs ob@gi.org.pl
+/docs/backend   @gi-org-pl/backs ob@gi.org.pl
+
+# Files reviewed by frontend developers and Head of Product
+/docs/frontend  @gi-org-pl/fronts ao@gi.org.pl
+
+# Config files reviewed by admins and Head of Engineering
+/.github/       @gi-org-pl/admins ob@gi.org.pl
+*.json          @gi-org-pl/admins ob@gi.org.pl
+*.yaml          @gi-org-pl/admins ob@gi.org.pl

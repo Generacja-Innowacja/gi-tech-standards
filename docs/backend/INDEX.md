@@ -45,11 +45,21 @@ maintainable.
 >
 > [Read more about RFC](/docs/backend/conventions/RFC.md)
 
+> **Code owners**
+>
+> Setting code owners for directories and files is a good practice to automatically summon reviewers and catch the
+> attention of other developers when pull requests are created.
+>
+> [Read more about code owners convention](/docs/backend/conventions/CODE_OWNERS.md)
+
 > **Naming**
 >
 > [Read more about naming convention](/docs/backend/conventions/NAMING.md)
 
 > **Structure**
+>
+> Keeping the project structure in a one, standardized manner is important. Developers in an organization often switch
+> between different projects, and a similar structure keeps things organized.
 >
 > [Read more about structure convention](/docs/backend/conventions/STRUCTURE.md)
 

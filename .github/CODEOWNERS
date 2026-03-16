@@ -1,0 +1,13 @@
+*               @gi-org-pl/backs @gi-org-pl/fronts
+
+# Files covered by #engineering - Head of Engineering - Oskar Barcz
+/docs/ai        @gi-org-pl/backs
+/docs/backend   @gi-org-pl/backs
+
+# Files covered by #product - Head of Product - Adrian Orłów
+/docs/frontend  @gi-org-pl/fronts
+
+# Changes to this repository config files should be reviewed by the Head Of Engineering
+/.github/       @gi-org-pl/admins
+*.json          @gi-org-pl/admins
+*.yaml          @gi-org-pl/admins

@@ -18,8 +18,7 @@ When generating developer tasks based on this document:
 - New projects must be bootstrapped from the
   [Vite Project Boilerplate](https://github.com/Generacja-Innowacja/vite-project-boilerplate). If a
   task creates a new repo, add a sub-task: "scaffold from vite-project-boilerplate".
-- Any deviation from §4 (tooling) requires a sub-task: "obtain Technical Leader approval for
-  <tech>".
+- Any deviation from §4 (tooling) requires a sub-task: "obtain Technical Leader approval for the new tech".
 - Default Definition of Done for any front-end task includes: lints clean (Biome), types clean
   (TypeScript strict), unit tests added/updated, e2e covers happy path if user-facing flow changed.
 
@@ -28,7 +27,7 @@ When generating developer tasks based on this document:
 ## 1. Stack at a glance
 
 | Layer | Tool | Min version | Notes |
-|---|---|---|---|
+| --- | --- | --- | --- |
 | Runtime | Node.js | >= 24 | Latest LTS only. |
 | Package manager | Yarn | >= 1.22 | Lockfile must be committed. No npm/pnpm mixing. |
 | Language | TypeScript | >= 5.9 | Strict mode assumed. |
@@ -108,7 +107,7 @@ new top-level folders without TL approval.
 Concrete:
 
 | Entity | Pattern | Example |
-|---|---|---|
+| --- | --- | --- |
 | Domain folder | `kebab-case` | `user-profile/` |
 | Component folder | `PascalCase` | `UserProfileCard/` |
 | Other folders | `kebab-case` | `utils/`, `schemas/` |
@@ -260,7 +259,7 @@ Acceptance-criteria phrasing for testing tasks should mirror Given/When/Then so 
 ## 7. Source-of-truth doc map
 
 | Topic | Doc |
-|---|---|
+| --- | --- |
 | Index | `docs/frontend/INDEX.md` |
 | Component structure | `docs/frontend/conventions/COMPONENT_STRUCTURE.md` |
 | Naming | `docs/frontend/conventions/NAMING.md` |

@@ -21,9 +21,10 @@ and maintain code quality. If you need to use a different technology, please see
 - [Code Quality](tools/CODE_QUALITY.md)
 - [Fundamentals](tools/FUNDAMENTALS.md)
 - [React](tools/REACT.md)
-- [State Management](tools/STATE_MANAGEMEN.md)
+- [State Management](tools/STATE_MANAGEMENT.md)
 - [Testing](tools/TESTING.md)
 
 ## Resources
 
 - [Vite Project Boilerplate](https://github.com/Generacja-Innowacja/vite-project-boilerplate)
+- [Claude Rules](CLAUDE.md)
